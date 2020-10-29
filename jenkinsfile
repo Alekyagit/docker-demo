@@ -3,7 +3,7 @@ node {
     env.AWS_ECR_LOGIN=true
     def newApp
     def registry = 'alekyadock/nodejs1'
-    def registryCredential = 'docker'
+    def registryCredential = 'dockerhub'
 
         stage('Git') {
                 git 'https://github.com/Alekyagit/docker-demo'
