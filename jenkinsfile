@@ -6,7 +6,7 @@ node {
     def registryCredential = 'docker'
 
         stage('Git') {
-                git 'github.com/gustavoapolinario/node-todo-frontend'
+                git 'github.com/Alekyagit/docker-demo'
         }
         stage('Build') {
                 sh 'npm install'
